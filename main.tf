@@ -1,5 +1,5 @@
 module "TF_ANSIBLE" {
-  source = "./module"
+  source = "./Module"
   accesskey = "${var.accesskey}"
   secretekey = "${var.secretekey}"
 }
